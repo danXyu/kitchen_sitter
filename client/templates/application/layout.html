@@ -1,0 +1,13 @@
+<!-- Template: Layout, sets the application layout for iron:router -->
+<template name="layout">
+
+  <!-- Insert header -->
+  <div class="container">
+    {{> header}}
+  </div>
+
+  <!-- Sets the initial view for the homepage -->
+  <div class="container">
+    {{> yield}}
+  </div>
+</template>
